@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body, #root {
+    @apply dark:bg-zinc-900 bg-stone-100 min-h-screen
+  }
+
+  input,
+  textarea {
+    @apply dark:text-[#ddd] text-stone-600
+  }
+
+  textarea {
+    @apply resize-none
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-stone-500 dark:text-zinc-500
+  }
+
+  .fixed-note {
+    @apply bg-stone-300 dark:bg-zinc-800
+  }
+
+  .icon-toggle-theme {
+    @apply group-hover:scale-125 transition
+  }
+}
