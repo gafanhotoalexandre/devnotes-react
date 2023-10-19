@@ -23,7 +23,7 @@ Certifique-se de que você tenha o Node.js instalado em seu sistema.
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/seu-usuario/devnotes.git
+git clone https://github.com/gafanhotoalexandre/devnotes.git
 cd devnotes
 npm install
 npm run dev
